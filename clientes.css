@@ -1,6 +1,24 @@
-.navbar-brand, .nav-link {
+.navbar-brand, .nav-link, .body {
     text-align: center;
     font-family: "Pacifico";
     font-size: 40px;
 }
 
+.form-cadastro label {
+    margin-top: 2%;
+    margin-left: 10%;
+    font-family: "Pacifico";
+    font-size: 30px;
+}
+
+.form-cadastro input {
+    margin-left: 10%;
+    font-size: 18px;
+    width: 40%;
+}
+
+.form-cadastro button {
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 15px;
+}
