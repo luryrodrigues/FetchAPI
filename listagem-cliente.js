@@ -1,6 +1,7 @@
 const removeCliente = id => {
   if(confirm("Tem certeza que deseja excluir o cliente?")){
     deletaCliente(id)
+    document.location.reload()
   }
 }
 
